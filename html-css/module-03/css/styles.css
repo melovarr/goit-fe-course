@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: local;
 }
 
 .wrapper {
@@ -55,7 +55,7 @@ h4 {
     color: #534d6b;
     margin-bottom: 10px;
 }
-.text {
+p {
     text-align: left;
     font-size: 15px;
    /* font-stretch: ultra-expanded;*/
