@@ -16,56 +16,66 @@ body {
 .wrapper {
     width: 480px;
     background-color: #fdfbfb;
-    border: 2px solid #000000;
+    /*border: 2px solid #000000;*/
     margin: 70px auto 82px auto;
-    padding: 0px 37px 43px 37px;
+    padding: 10px 37px 43px 37px;
 }
 .article {
     box-sizing: content-box;
-    margin: 20px;
-    border: 2px solid #000000;
+    margin: 50px 0px;
+    /*border: 2px solid #000000;*/
 
 }
 
 h2 {
     text-align: left;
     text-transform: uppercase;
-    font-size: 25px;
+    /*font-size: 25px;*/
     font-family: 'Pathway Gothic One', sans-serif;
-    color: #3c3363;
+    color: #534d6b;
+    margin-bottom: 30px;
 }
 
 .pic {
     width: 400px;
+    height: 100px;
+    margin: 0px 0px 25px 0px;
 }
 
 .bord {
     width: 400px;
-    height: 2px;
-    background-color: #8f8888;
+    height: 1px;
+    background-color: #d0ced3;
 }
 
 h4 {
     text-align: left;
     font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    color: #3c3363;
+    /*font-size: 14px;*/
+    color: #534d6b;
+    margin-bottom: 10px;
 }
 .text {
     text-align: left;
-    font-size: 14 px;
-    font-family: 'Pathway Gothic One', sans-serif;
-    margin-top: 0 px;
-    color: #3c3363;
+    font-size: 15px;
+   /* font-stretch: ultra-expanded;*/
+    font-family: 'Abel', sans-serif;
+    /*font-weight: 100;*/
+    margin-bottom: 20px;
+/*color: #534d6b;*/
 }
 ul{
     list-style-type: none;
+    column-count: 2;
 }
 .listtext {
+    line-height: 35px;
+    text-indent: 10px;
     text-align: left;
     font-family: 'Arial', sans-serif;
+    font-weight: 550;
     font-size: 14px;
-    color: #3c3363;
+    color: #534d6b;
 }
 
 
