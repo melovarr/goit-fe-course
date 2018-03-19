@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1640px;
+    height: 1840px;
+    background-color: white;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+header {
+    height: auto;
+    padding-top: 30px;
+    clear: both;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.mart {
+    float: left;
+    display: block;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 1.067;
+    margin-left: 258.844px;
+    top: 30px;
+}
+
+.mart::first-letter {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(26, 188, 156);
+    text-transform: uppercase;
+}
+
+.main {
+    margin: auto;
+    font-family: "OpenSans", sans-serif;
+    list-style-type: none;
+}
+
+.main li {
+    float: right;
+}
+
+.main a {
+    display: block;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #130606;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main a:hover {
+    color: #76c0a3;
+}
+
+.main {
+    margin-right: 220px;
+}
+
+.titles {
+    display: block;
+    position: relative;
+    padding: 100px 1px 1px 1px;
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    color: #525252;
+    text-transform: uppercase;
+    line-height: 0.667;
+    text-align: center;
+    clear: both;
+}
+
+.titles::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 84px;
+    background-color: #6cbb9c;
+    left: 50%;
+    top: 180px;
+}
+
+.titles::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 84px;
+    background-color: #6cbb9c;
+    right: 50%;
+    top: 180px;
+}
+
+.products {
+    display: block;
+    margin-left: 260px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.prod {
+    float: left;
+    width: 260px;
+    height: 320px;
+    margin-right: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.prod:nth-last-child(4) {
+    margin-bottom: 0;
+}
+
+.prdcts {
+    opacity: 0.8;
+    background-color: black;
+    height: 280px;
+    width: 260px;
+}
+
+.name {
+    float: left;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.778;
+    text-align: left;
+    text-indent: 10px;
+    margin-right: 0;
+    background-color: #353535;
+    width: 80%;
+}
+
+.prdcts:hover+.name {
+    background-color: #1abc9c;
+}
+
+.price {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.778;
+    text-align: center;
+    background-color: #8e8e8e;
+    float: left;
+    width: 20%;
+    margin-left: 0;
+}
+
+.prdcts:hover+.name+.price {
+    background-color: #7fd9c7;
+}
+
+.articles {
+    display: block;
+    margin-left: 260px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    clear: both;
+}
+
+.article {
+    display: inline-block;
+    background-repeat: no-repeat;
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin-right: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.artphoto1 {
+    background-image: url("../images/ipad-632394_960_720.png");
+}
+
+.artphoto2 {
+    background-image: url("../images/slide1.png");
+}
+
+.artphoto3 {
+    background-image: url("../images/product-img-5.png");
+}
+
+.articletitle {
+    display: block;
+    position: relative;
+    margin-top: 280px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #555252;
+    line-height: 1.444;
+}
+
+.articletitle::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 150px;
+    background-color: #4ec6ab;
+    top: 55px;
+}
+
+.articletext {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #555252;
+    line-height: 1.857;
+    margin-top: 40px;
+}
+
+button {
+    height: 50px;
+    width: 160px;
+    background-color: #6cbb9c;
+    font-size: 16px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    line-height: 1.625;
+    text-align: center;
+}
