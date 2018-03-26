@@ -149,9 +149,9 @@ header {
     width: 80%;
     z-index: 10;
 }
-/*.prod:hover{
-    background-image: url("../images/category-1.png");
-}*/
+.prod:hover{
+    
+}
 
 .prod:hover .name {
    background-color: #1abc9c;
